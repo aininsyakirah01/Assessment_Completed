@@ -3653,11 +3653,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\Real Submission\\MyTodoApi\\TodoApi.csproj",
+      "projectUniqueName": "C:\\Project\\Real Submission\\Assessment_Completed\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Project\\Real Submission\\MyTodoApi\\TodoApi.csproj",
+      "projectPath": "C:\\Project\\Real Submission\\Assessment_Completed\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\magic\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\Real Submission\\MyTodoApi\\obj\\",
+      "outputPath": "C:\\Project\\Real Submission\\Assessment_Completed\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\magic\\AppData\\Roaming\\NuGet\\NuGet.Config",
