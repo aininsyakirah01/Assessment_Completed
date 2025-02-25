@@ -4,11 +4,7 @@
 
 This project consists of a To-Do List Web API built using .NET with Clean Architecture and a React Frontend. The API is documented using Swagger and uses SQLite as the database. The frontend is developed with React and styled using App.js and App.css.
 
-🎥 Demo Video
-
 📺 **[Watch the Demo Video](https://youtu.be/D2SpnFVQr48)**
-
-📺 Watch the Demo Video
 
 🚀 Running the Web API
 
