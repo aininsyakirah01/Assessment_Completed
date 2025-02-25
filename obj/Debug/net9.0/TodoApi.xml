@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoApi</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Controllers.TodoController.GetTodos">
+            <summary>
+            Retrieves all todo items.
+            </summary>
+            <returns>List of todo items.</returns>
+        </member>
+        <member name="M:Api.Controllers.TodoController.GetTodoById(System.Int32)">
+            <summary>
+            Retrieves a specific todo item by ID.
+            </summary>
+            <param name="id">The ID of the todo item.</param>
+            <returns>The todo item with the specified ID.</returns>
+        </member>
+        <member name="M:Api.Controllers.TodoController.CreateTodo(Core.Entities.TodoItem)">
+            <summary>
+            Creates a new todo item.
+            </summary>
+            <param name="todo">The todo item to create.</param>
+            <returns>The created todo item.</returns>
+        </member>
+        <member name="M:Api.Controllers.TodoController.UpdateTodo(System.Int32,Core.Entities.TodoItem)">
+            <summary>
+            Updates an existing todo item.
+            </summary>
+            <param name="id">The ID of the todo item to update.</param>
+            <param name="updatedTodo">The updated todo item details.</param>
+            <returns>No content if successful.</returns>
+        </member>
+        <member name="M:Api.Controllers.TodoController.DeleteTodo(System.Int32)">
+            <summary>
+            Deletes a specific todo item.
+            </summary>
+            <param name="id">The ID of the todo item to delete.</param>
+            <returns>No content if successful.</returns>
+        </member>
+        <member name="T:TodoApi.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:TodoApi.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TodoApi.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TodoApi.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
