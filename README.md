@@ -6,7 +6,7 @@ This project consists of a To-Do List Web API built using .NET with Clean Archit
 
 🎥 Demo Video
 
-[https://youtu.be/D2SpnFVQr48](url)
+📺 **[Watch the Demo Video](https://youtu.be/D2SpnFVQr48)**
 
 📺 Watch the Demo Video
 
