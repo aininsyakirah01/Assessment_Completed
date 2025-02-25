@@ -1,0 +1,140 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1e1e1e; /* Darker card */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Deeper shadow */
+  border-radius: 10px;
+}
+
+/* Title */
+h1 {
+  font-size: 24px;
+  color: #00aaff; /* Bright blue */
+  margin-bottom: 20px;
+}
+
+/* Input Field */
+input {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #333; /* Darker border */
+  background-color: #252525; /* Dark input field */
+  color: #e0e0e0; /* Light text */
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #00aaff;
+  box-shadow: 0 0 5px rgba(0, 170, 255, 0.7);
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  border: 2px solid transparent; /* Default border */
+}
+
+button:hover {
+  transform: scale(1.1);
+  border-color: rgba(255, 255, 255, 0.7); /* Light border on hover */
+}
+
+button:active {
+  transform: scale(1.05);
+}
+
+/* Add Button */
+.add-btn {
+  background: #007bff;
+  border-color: #00aaff;
+}
+
+.add-btn:hover {
+  background: #0056b3;
+}
+
+/* Update & Delete Buttons */
+.update-btn {
+  background: #ffc107;
+  border-color: #ffd700;
+}
+
+.update-btn:hover {
+  background: #e0a800;
+}
+
+.delete-btn {
+  background: #dc3545;
+  border-color: #ff5c5c;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+/* Save & Cancel Buttons */
+.save-btn {
+  background: #28a745;
+  border-color: #34d058;
+}
+
+.save-btn:hover {
+  background: #218838;
+}
+
+.cancel-btn {
+  background: #6c757d;
+  border-color: #adb5bd;
+}
+
+.cancel-btn:hover {
+  background: #5a6268;
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #252525; /* Dark list item */
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease-in-out;
+}
+
+li:hover {
+  background: #333; /* Slightly lighter hover */
+}
+
+/* Todo Text */
+.todo-text {
+  flex-grow: 1;
+  text-align: left;
+}
